@@ -1,9 +1,21 @@
-var fruits = ['Apple','Banana','Organce'];
+var fruits = ['Apple','Banana','Organge'];
+
+// find the index of "Banana"
 
 var indexOfBanana = fruits.indexOf('Banana');
 
-console.log(indexOfBanana);
+
+// replacing "Banana" with "Mango"
 
 fruits[1] ='Mango';
 
-console.log(fruits);
+// removing "Organge form the Array"
+
+var removingOrange = fruits.pop()
+
+// adding "Watermelon" in Array
+
+var addWaterMelon = fruits.push('Watermelon');
+
+console.log(indexOfBanana,fruits);
+
